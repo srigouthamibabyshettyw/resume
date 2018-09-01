@@ -1,0 +1,42 @@
+h1{
+  text-align:center;
+  color:green;
+}
+.main {
+  display:flex;
+  justify-content:center;
+  box-sizing: border-box;
+  margin:auto;
+}
+img{
+  width=50%;
+  height=50%;
+}
+@media(min-width:60px){
+  main{
+    width=60%;
+    margin: auto;
+    justify-content: center;
+  }
+.one,.two,.three{
+    border:1px solid #000;
+      width=33.3%;
+    text-align: center;
+
+}
+media(main-width=800px){
+  main{
+    width=800px;
+    margin: auto;
+    justify-content: center;
+  }
+  .one,.two{
+      width=50%;
+      text-align: center;
+    }
+    .three{
+        width=50%;
+        text-align: center;
+      }
+    }
+  }
